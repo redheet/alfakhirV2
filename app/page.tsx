@@ -29,6 +29,7 @@ import {
   getCourse,
   getTeam,
 } from "@/sanity/sanity.query";
+import AboutSection from "@/component/about/AboutSection";
 
 export const metadata: Metadata = {
   title: "SMP Islam Modern Al-Fakhir | Home",
@@ -47,14 +48,15 @@ const page = async () => {
       <NavbarSection style="main_menu_3" logo="/images/main/alfakhir.png" />
       <BannerSection3 />
       {categoryData && <CategorySection3 categoryData={categoryData} />}
-      <AboutSection3 style="about_3" />
-      <ContactSection />
-      {courseData && <CourseSection2 courseData={courseData} />}
-      <CounterSection />
+      <AboutSection />
+      {/* <AboutSection3 style="about_3" /> */}
+      {/* <ContactSection /> */}
+      {/* {courseData && <CourseSection2 courseData={courseData} />} */}
+      {/* <CounterSection /> */}
       {teamData && (
         <TeamSection style="tf__team_3 pt_250 pb_100" teamData={teamData} />
       )}
-      <ContactSection2 />
+      {/* <ContactSection2 /> */}
       {activityData && (
         <ActivitySection2
           style="tf__activities_3 tf__activities_slider_area mt_100 pt_95 pb_100"
