@@ -25,7 +25,7 @@ const NavigationSection = ({ position, btnPosition, navRef }: Props) => {
           <Navlink href="/">Home</Navlink>
         </li>
         <li className="nav-item">
-          <Navlink href="/about">about us</Navlink>
+          <Navlink href="/about">Sejarah Kami</Navlink>
         </li>
         <li className="nav-item">
           <a className="nav-link">
@@ -62,22 +62,22 @@ const NavigationSection = ({ position, btnPosition, navRef }: Props) => {
             pages <i className="fa fa-angle-down"></i>
           </a>
           <ul className="tf__droap_menu">
-            <li>
+            {/* <li>
               <SubNavlink href="/events">event</SubNavlink>
             </li>
             <li>
               <SubNavlink href="/events/science-fair">event details</SubNavlink>
-            </li>
+            </li> */}
             <li>
               <SubNavlink href="/team">team</SubNavlink>
             </li>
             <li>
-              <SubNavlink href="/team/john-smith">team details </SubNavlink>
+              {/* <SubNavlink href="/team/john-smith">team details </SubNavlink> */}
             </li>
             <li>
               <SubNavlink href="/faq">FAQs</SubNavlink>
             </li>
-            <li>
+            {/* <li>
               <SubNavlink href="/sign-in">sign in</SubNavlink>
             </li>
             <li>
@@ -90,7 +90,7 @@ const NavigationSection = ({ position, btnPosition, navRef }: Props) => {
             </li>
             <li>
               <SubNavlink href="/privacy-policy">privacy policy</SubNavlink>
-            </li>
+            </li> */}
           </ul>
         </li>
         <li className="nav-item">
@@ -98,14 +98,14 @@ const NavigationSection = ({ position, btnPosition, navRef }: Props) => {
         </li>
         {btnPosition ? null : (
           <li className="nav-item">
-            <a className="nav-link common_btn" href="#">
+            <a className="nav-link common_btn" href="https://pendaftaran.smpialfakhir.sch.id/">
               Pendaftaran
             </a>
           </li>
         )}
       </ul>
       {btnPosition ? (
-        <a className="common_btn_2 ms-auto" href="#">
+        <a className="common_btn_2 ms-auto" href="https://pendaftaran.smpialfakhir.sch.id/">
           pendaftaran
         </a>
       ) : null}
