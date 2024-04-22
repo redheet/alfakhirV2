@@ -5,7 +5,7 @@ import React, { useState } from "react";
 interface Props {
   eventData: EventType[];
 }
-const AllEventSection = ({eventData} : Props) => {
+const AllEventSection = ({ eventData }: Props) => {
   const eventPerPage = 6;
 
   const [currentEventPage, setCurrentEventPage] = useState(1);
@@ -16,7 +16,7 @@ const AllEventSection = ({eventData} : Props) => {
 
   const totalEventPages = Math.ceil(eventData.length / eventPerPage);
 
-  const handleEventPageChange = (newPage : number) => {
+  const handleEventPageChange = (newPage: number) => {
     setCurrentEventPage(newPage);
     setTimeout(() => {
       window.scrollTo(0, 200);
@@ -62,7 +62,7 @@ const AllEventSection = ({eventData} : Props) => {
                   <p>{item.desc}</p>
                   <div className="tf__single_event_footer">
                     <span>{item.organizer}</span>
-                    <span>${item.price}.00</span>
+                    <span>Rp{item.price}.000</span>
                   </div>
                 </div>
               </div>
