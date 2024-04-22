@@ -55,7 +55,7 @@ const CategorySlider = ({categoryData} : Props) => {
             </span>
             <h3>{item.title}</h3>
             <p>{item.desc}</p>
-            <a href="#">
+            <a href="/">
               <i className="fas fa-long-arrow-right"></i>
             </a>
           </div>
