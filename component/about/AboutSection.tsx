@@ -41,7 +41,7 @@ const AboutSection = () => {
             <div className="col-xl-5 col-lg-5">
               <div className="tf__about_top_img">
                 <img
-                  src="images/about_top_img.jpg"
+                  src="/images/building.jpeg"
                   alt="about"
                   className="img-fluid w-100"
                 />
@@ -50,15 +50,15 @@ const AboutSection = () => {
             <div className="col-xl-7 col-lg-7">
               <div className="tf__about_top_text">
                 <div className="tf__about_top_text_center">
-                  <h4>Study Off Flexibly</h4>
+                  <h4>Tujuan Sekolah</h4>
                   <p>
-                    We can provide you with a reliable handyan in Please input
-                    an email address down below school. Please input anand
-                    school. included the today.
+                  Sebagai ruang formal dalam membentuk generasi Islami Modern yang berpengetahuan luas, 
+                  berakhlak baik dan dapat menerapkan ilmu pengetahuan di berbagai aspek kehidupan untuk kesuksesan hidup 
+                  di dunia dan di akhirat.
                   </p>
                 </div>
-                <a href="#" className="common_btn">
-                  read more
+                <a href="https://pendaftaran.smpialfakhir.sch.id/" className="common_btn">
+                  daftar sekarang
                 </a>
               </div>
             </div>
