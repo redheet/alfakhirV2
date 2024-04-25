@@ -24,7 +24,7 @@ import {
 } from "@/sanity/sanity.query";
 
 export const metadata: Metadata = {
-  title: "AlFakhir About",
+  title: "Tentang Kami | SMP Islam Modern Al-Fakhir",
   description: "Developed by Azizur Rahman",
 };
 const page = async () => {
@@ -35,13 +35,13 @@ const page = async () => {
   const blogData: BlogType[] = await getBlog();
   return (
     <Layout>
-      <BreadcrumbSection header="About us" title="About us" />
+      <BreadcrumbSection header="Tentang Kami" title="Tentang Kami" />
       <section className="tf__about_us_page mt_195 xs_mt_100">
         <AboutSection3 style="" />
         {serviceData && <PopularServiceSection2 services={serviceData} />}
-        {courseData && (
+        {/* {courseData && (
           <CourseSection style="tf__popular_courses" courseData={courseData} />
-        )}
+        )} */}
         {faqData && <FaqSection img="images/faq_img_2.jpg" faqData={faqData} />}
         {activityData && (
           <ActivitySection2

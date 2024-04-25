@@ -9,25 +9,25 @@ const TopbarSection = ({ style }: Props) => {
         <div className="row">
           <div className="col-xl-6 col-md-6 d-none d-md-block">
             <div className="tf__topbar_left d-flex flex-wrap align-items-center">
-              <p>Visit our social pages:</p>
+              <p>Kunjungi halaman sosial kami:</p>
               <ul className="d-flex flex-wrap">
                 <li>
-                  <a href="#">
+                  <a href="https://www.facebook.com/profile.php?id=61556239838524">
                     <i className="fab fa-facebook-f"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://www.instagram.com/smpi.alfakhir/">
                     <i className="fab fa-instagram"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://www.youtube.com/channel/UCywwH3nFH8zBB5rLq8_PKRA">
                     <i className="fab fa-youtube"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://wa.me/6285281752123">
                     <i className="fab fa-whatsapp"></i>
                   </a>
                 </li>
@@ -48,7 +48,7 @@ const TopbarSection = ({ style }: Props) => {
                 <li>
                   <a href="#">your help</a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#">
                     <img src="/images/id.png" alt="language" /> indonesia
                   </a>
@@ -64,7 +64,7 @@ const TopbarSection = ({ style }: Props) => {
                       </a>
                     </li>
                   </ul>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
