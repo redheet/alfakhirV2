@@ -47,9 +47,9 @@ const FooterSection2 = ({ style, logo }: Props) => {
                       />
                     </Link>
                     <p>
-                      Nemo enim ipsam voluptate quia voluptas sit aspernatur aut
-                      odit aut fugit, sed quia magni this dolores eos qui
-                      ratione .
+                      Terwujudnya pendidikan yang bermutu tinggi dalam membentuk
+                      siswa-siswi yang berakhlak, modern, dan menjadi kebanggaan
+                      orang tua, masyarakat, bangsa dan negara.
                     </p>
                     <ul className="d-flex flex-wrap">
                       <li>
@@ -82,53 +82,53 @@ const FooterSection2 = ({ style, logo }: Props) => {
                 </div>
                 <div className="col-xl-2 col-md-5 col-lg-3">
                   <div className="tf__footer_content">
-                    <h3>Quick Links</h3>
+                    <h3>Tautan</h3>
                     <ul>
                       <li>
-                        <Link href="/courses">Best Services</Link>
+                        <Link href="/#tujuan">Tujuan Sekolah</Link>
                       </li>
                       <li>
-                        <Link href="/events">Events</Link>
+                        <Link href="/#visimisi">Visi & Misi</Link>
                       </li>
                       <li>
-                        <Link href="/about">About Our Company</Link>
+                        <Link href="/about">Sejarah Kami</Link>
                       </li>
                       <li>
-                        <Link href="/contact">Business Contact</Link>
+                        <Link href="/contact">Hubungi Kami</Link>
                       </li>
                       <li>
-                        <Link href="/contact">Make An Appointment</Link>
+                        <Link
+                          href="https://pendaftaran.smpialfakhir.sch.id/"
+                          target="_blank"
+                        >
+                          Pendaftaran Online
+                        </Link>
                       </li>
                     </ul>
                   </div>
                 </div>
                 <div className="col-xl-3 col-md-7 col-lg-3">
                   <div className="tf__footer_content">
-                    <h3>Our Contacts</h3>
-                    <p>Adress: 27 Division St, Berakuti, NY 121102, USA</p>
+                    <h3>Hubungi Kami</h3>
+                    <p>
+                      Jl. Kemang, Pasir Putih, Kec. Sawangan, Kota Depok, Jawa
+                      Barat 16519
+                    </p>
                     <p>
                       <span>
                         {" "}
                         Phone:{" "}
-                        <Link href="tel: +8 1440 456 782">+8 1440 456 782</Link>
-                      </span>
-                      <span>
-                        Fax:{" "}
-                        <Link href="tel: +8 846512 456 788">
-                          +8 846512 456 788
+                        <Link href="tel: +6285281752123">
+                          +62 852-8175-2123
                         </Link>
                       </span>
                     </p>
                     <p>
                       <span>
                         Email:{" "}
-                        <Link href="mailTo: example@mail.com">
-                          example@mail.com
+                        <Link href="mailTo: smpialfakhir@gmail.com">
+                          smpialfakhir@gmail.com
                         </Link>{" "}
-                      </span>
-                      <span>
-                        Website:{" "}
-                        <Link href="yourwebsite.com">yourwebsite.com</Link>
                       </span>
                     </p>
                   </div>
@@ -137,12 +137,12 @@ const FooterSection2 = ({ style, logo }: Props) => {
                   <div className="tf__footer_content">
                     <h3>News Letter</h3>
                     <p>
-                      Our approach to itis unique around know work an we know
-                      Get hands on the you like
+                      Pendekatan kami terhadap keunikannya seputar pekerjaan
+                      yang diketahui dan kami tahu Dapatkan apa yang Anda suka
                     </p>
                     <form>
-                      <input type="text" placeholder="Your Email" />
-                      <button>send</button>
+                      <input type="text" placeholder="Email Anda" />
+                      <button>kirim</button>
                     </form>
                   </div>
                 </div>
@@ -155,10 +155,10 @@ const FooterSection2 = ({ style, logo }: Props) => {
                     </p>
                     <ul className="d-flex flex-wrap">
                       <li>
-                        <Link href="/privacy-policy">Privacy policy</Link>
+                        <Link href="/privacy-policy">Kebijakan pribadi</Link>
                       </li>
                       <li>
-                        <Link href="/about">About</Link>
+                        <Link href="/about">Tentang Kami</Link>
                       </li>
                     </ul>
                   </div>
