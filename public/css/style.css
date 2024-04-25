@@ -622,7 +622,7 @@ button {
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
-  background-image: url(../images/banner_bg.jpg);
+  background-image: url(../images/banner-girl.png);
 }
 
 .tf__banner_2 div,
@@ -1072,7 +1072,7 @@ button {
 .tf__about_text ul li::after {
   position: absolute;
   content: "";
-  background: url(../images/check_icon_1.png);
+  background: url(../images/check.png);
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-position: center !important;
@@ -1087,7 +1087,7 @@ button {
 }
 
 .tf__about_text a {
-  width: 190px;
+  width: 195px;
 }
 
 .tf__about_img {
@@ -5052,7 +5052,7 @@ button {
   margin: 0;
   height: auto;
   background-position: center top !important;
-  background-image: url(../images/banner_bg3.jpg);
+  background-image: url(../images/banner-girl.png);
 }
 
 .home_3 .tf__banner_text {

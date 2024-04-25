@@ -1,7 +1,7 @@
 "use client";
 import React, { ReactNode } from "react";
 import NavbarSection from "../navbar/NavbarSection";
-import FooterSection from "../footer/FooterSection";
+// import FooterSection from "../footer/FooterSection";
 import ScrollToTopButton from "../utils/ScrollToTopButton";
 import TopbarSection from "@/component/topbar/TopbarSection";
 import FooterSection2 from "./../footer/FooterSection2";

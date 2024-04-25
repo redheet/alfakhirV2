@@ -25,7 +25,7 @@ const NavigationSection = ({ position, btnPosition, navRef }: Props) => {
           <Navlink href="/">Home</Navlink>
         </li>
         <li className="nav-item">
-          <Navlink href="/about">Sejarah Kami</Navlink>
+          <Navlink href="/about">Tentang Kami</Navlink>
         </li>
         <li className="nav-item">
           <a className="nav-link">
@@ -98,14 +98,20 @@ const NavigationSection = ({ position, btnPosition, navRef }: Props) => {
         </li>
         {btnPosition ? null : (
           <li className="nav-item">
-            <a className="nav-link common_btn" href="https://pendaftaran.smpialfakhir.sch.id/">
+            <a
+              className="nav-link common_btn"
+              href="https://pendaftaran.smpialfakhir.sch.id/"
+            >
               Pendaftaran
             </a>
           </li>
         )}
       </ul>
       {btnPosition ? (
-        <a className="common_btn_2 ms-auto" href="https://pendaftaran.smpialfakhir.sch.id/">
+        <a
+          className="common_btn_2 ms-auto"
+          href="https://pendaftaran.smpialfakhir.sch.id/"
+        >
           pendaftaran
         </a>
       ) : null}
