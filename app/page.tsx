@@ -15,6 +15,7 @@ import CategorySection3 from "@/component/category/CategorySection3";
 import BannerSection3 from "@/component/banner/BannerSection3";
 import NavbarSection from "@/component/navbar/NavbarSection";
 import TopbarSection from "@/component/topbar/TopbarSection";
+import FooterSection from "@/component/footer/FooterSection";
 import {
   ActivityType,
   BlogType,
@@ -40,14 +41,14 @@ const page = async () => {
   const teamData: TeamType[] = await getTeam();
   const activityData: ActivityType[] = await getActivity();
   const blogData: BlogType[] = await getBlog();
-  const categoryData: CategoryType[] = await getCategory();
-  const courseData: CourseType[] = await getCourse();
+  // const categoryData: CategoryType[] = await getCategory();
+  // const courseData: CourseType[] = await getCourse();
   return (
     <div className="home_3">
       <TopbarSection style="tf__topbar tf__topbar_2" />
       <NavbarSection style="main_menu_3" logo="/images/main/alfakhir.png" />
       <BannerSection3 />
-      {categoryData && <CategorySection3 categoryData={categoryData} />}
+      {/* {categoryData && <CategorySection3 categoryData={categoryData} />} */}
       <AboutSection />
       {/* <AboutSection3 style="about_3" /> */}
       {/* <ContactSection /> */}
@@ -64,7 +65,7 @@ const page = async () => {
         />
       )}
       {blogData && <BlogSection2 blogData={blogData} />}
-      <FooterSection2 style="tf__footer_3" logo="images/main/alfakhir.png" />
+      <FooterSection />
       <VideoModal />
       <ScrollToTopButton style="style-3" />
     </div>
