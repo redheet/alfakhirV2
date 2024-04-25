@@ -33,30 +33,14 @@ const NavigationSection = ({ position, btnPosition, navRef }: Props) => {
           </a>
           <ul className="tf__droap_menu">
             <li>
-              <SubNavlink href="/courses">courses</SubNavlink>
+              <SubNavlink href="#">Program Kami</SubNavlink>
             </li>
             <li>
-              <SubNavlink href="/courses/modern-frontend-frameworks">
-                courses details
-              </SubNavlink>
+              <SubNavlink href="#">Fasilitas Kami</SubNavlink>
             </li>
           </ul>
         </li>
-        <li className="nav-item">
-          <a className="nav-link">
-            blogs <i className="fa fa-angle-down"></i>
-          </a>
-          <ul className="tf__droap_menu">
-            <li>
-              <SubNavlink href="/blog">blog</SubNavlink>
-            </li>
-            <li>
-              <SubNavlink href="/blog/culinary-adventures-exploring-world-cuisines">
-                blog details
-              </SubNavlink>
-            </li>
-          </ul>
-        </li>
+
         <li className="nav-item">
           <a className="nav-link">
             pages <i className="fa fa-angle-down"></i>
@@ -70,6 +54,12 @@ const NavigationSection = ({ position, btnPosition, navRef }: Props) => {
             </li> */}
             <li>
               <SubNavlink href="/team">team</SubNavlink>
+            </li>
+            <li>
+              <SubNavlink href="/courses">program</SubNavlink>
+            </li>
+            <li>
+              <SubNavlink href="/blog">berita</SubNavlink>
             </li>
             <li>
               {/* <SubNavlink href="/team/john-smith">team details </SubNavlink> */}
