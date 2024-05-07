@@ -9,14 +9,10 @@ const ContactPageSection = () => {
           <div className="col-xxl-8 col-xl-7 col-lg-6 wow fadeInLeft">
             <div className="tf__contact_form">
               <div className="tf__heading_area tf__heading_area_left mb_25">
-                <h5>OUR contact Us</h5>
-                <h2>Get Our Contact Now.</h2>
+                <h5>Hubungi Kami</h5>
+                <h2>Kirim pesan untuk kami</h2>
               </div>
-              <p>
-                Promote your blog posts, case udie, and product ouncems with the
-                the branded videoscustomers coming back for services Makes best
-                effort.
-              </p>
+              <p>Laporkan masalah, kritik, atau pertanyaan Anda.</p>
               <ContactForm />
             </div>
           </div>
@@ -27,9 +23,9 @@ const ContactPageSection = () => {
                   <i className="fas fa-phone-alt"></i>
                 </div>
                 <div className="text">
-                  <h3>Call</h3>
-                  <a href="callto:+880254615566">+880254615566</a>
-                  <a href="callto:+826542556455">+826542556455</a>
+                  <h3>Kontak Kami</h3>
+                  <a href="tel:+6285281752123">Fax</a>
+                  <a href="https://wa.me/+6285281752123">WhatsApp</a>
                 </div>
               </div>
               <div className="tf__contact_single">
@@ -37,9 +33,10 @@ const ContactPageSection = () => {
                   <i className="fas fa-phone-alt"></i>
                 </div>
                 <div className="text">
-                  <h3>mail</h3>
-                  <a href="mailto:neta@eobi.com">neta@eobi.com</a>
-                  <a href="mailto:coraty@bara.com">coraty@bara.com</a>
+                  <h3>Email</h3>
+                  <a href="mailto:smpialfakhir@gmail.com">
+                    smpialfakhir@gmail.com
+                  </a>
                 </div>
               </div>
               <div className="tf__contact_single">
@@ -48,7 +45,10 @@ const ContactPageSection = () => {
                 </div>
                 <div className="text">
                   <h3>address</h3>
-                  <p>52, 25 rangpur,0123 Ratrba baraj,20</p>
+                  <p>
+                    Jl. Kemang No.48, Pasir Putih, Kec. Sawangan, Kota Depok,
+                    Jawa Barat 16519
+                  </p>
                 </div>
               </div>
             </div>
@@ -57,7 +57,7 @@ const ContactPageSection = () => {
           <div className="col-xl-12 wow fadeInUp">
             <div className="tf__contact_map mt_100">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29199.78758207035!2d90.43684581929195!3d23.819543211524437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c62fce7d991f%3A0xacfaf1ac8e944c05!2sBasundhara%20Residential%20Area%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1667021568123!5m2!1sen!2sbd"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.716009930503!2d106.77957617526187!3d-6.430516862884803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69e985901e1355%3A0xe121bea830e8c92a!2sSMP%20Islam%20Modern%20Al-Fakhir!5e0!3m2!1sen!2sid!4v1714468278129!5m2!1sen!2sid"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
