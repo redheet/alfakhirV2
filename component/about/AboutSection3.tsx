@@ -4,8 +4,8 @@ import CountUp from "react-countup";
 
 type Props = {
   style: string;
-}
-const AboutSection3 = ({ style } : Props) => {
+};
+const AboutSection3 = ({ style }: Props) => {
   const [isVisible, setIsVisible] = useState(false);
   const onVisibilityChange = (entries: IntersectionObserverEntry[]) => {
     if (entries[0].isIntersecting) {
@@ -43,40 +43,46 @@ const AboutSection3 = ({ style } : Props) => {
             <div className="tf__about_2_img">
               <div className="tf__about_small">
                 <img
-                  src="images/about_2_img_2.jpg"
+                  src="images/data.png"
                   alt="about us"
                   className="img-fluid w-100"
                 />
               </div>
               <div className="tf__about_large counter-box">
                 <img
-                  src="images/about_2_img_1.jpg"
+                  src="images/deni.jpg"
                   alt="about us"
                   className="img-fluid w-100"
                 />
               </div>
               <p>
                 <span>
-                {isVisible && (
-              <CountUp
-                start={1}
-                end={24}
-                duration={5}
-                formattingFn={(value) => `${value}+`}
-              />
-            )}</span> Years of Experience
+                  {isVisible && (
+                    <CountUp
+                      start={1}
+                      end={2}
+                      duration={5}
+                      formattingFn={(value) => `${value}+`}
+                    />
+                  )}
+                </span>{" "}
+                Berdirinya sekolah
               </p>
             </div>
           </div>
           <div className="col-xl-6 col-lg-6 wow fadeInRight">
             <div className="tf__about_2_text">
               <div className="tf__heading_area tf__heading_area_left mb_25">
-                <h5>OUR About Us</h5>
-                <h2>Complete About Students University Education.</h2>
+                <h5>Sejarah</h5>
+                <h2>Sejarah Sekolah.</h2>
               </div>
               <p>
-                Business tailored it design, management & support services
-                business agency elit, sed do eiusmod tempor.{" "}
+                SMP Islam Modern Al Fakhir didirikan oleh Bpk. Deni Irawan, M.Pd
+                pada bulan Oktober 2023. Arti nama Al-Fakhir artinya adalah
+                kemuliaan, kebesaran atau kebanggaan dengan harapan sekolah ini
+                bisa menjadi sekolah yang besar dan juga setiap siswa-siswi yang
+                bersekolah di sekolah ini menjadi sosok yang membanggakan bagi
+                dirinya sendiri, keluarga, juga masyarakat.{" "}
               </p>
               <ul>
                 <li>
@@ -147,17 +153,18 @@ const AboutSection3 = ({ style } : Props) => {
               <p>
                 {isVisible && (
                   <span className="counter">
-                    <CountUp
-                start={1}
-                end={270000}
-                duration={5}
-              /> 
+                    <CountUp start={1} end={2000} duration={5} />
                   </span>
-             
-            )} More Students course
-                you do best !
+                )}
+                {""}
+                Ingin tau Al-Fakhir lebih lanjut !
               </p>
-              <a href="#">Export All</a>
+              <a
+                href="https://pendaftaran.smpialfakhir.sch.id/"
+                target="_blank"
+              >
+                Gabung Sekarang
+              </a>
             </div>
           </div>
         </div>
