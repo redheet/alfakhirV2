@@ -76,7 +76,7 @@ const NavigationSection = ({ position, btnPosition, navRef }: Props) => {
           </ul>
         </li>
         <li className="nav-item">
-          <Navlink href="/contact">contact</Navlink>
+          <Navlink href="/contact">Hubungi Kami</Navlink>
         </li>
         {btnPosition ? null : (
           <li className="nav-item">
