@@ -82,7 +82,7 @@ const FooterSection2 = ({ style, logo }: Props) => {
                 </div>
                 <div className="col-xl-2 col-md-5 col-lg-3">
                   <div className="tf__footer_content">
-                    <h3>Tautan</h3>
+                    <h3>Helpful Links</h3>
                     <ul>
                       <li>
                         <Link href="/#tujuan">Tujuan Sekolah</Link>
@@ -109,6 +109,28 @@ const FooterSection2 = ({ style, logo }: Props) => {
                 </div>
                 <div className="col-xl-3 col-md-7 col-lg-3">
                   <div className="tf__footer_content">
+                    <h3>Program</h3>
+                    <ul>
+                      <li>
+                        <Link href="#">Kurikulum</Link>
+                      </li>
+                      <li>
+                        <Link href="#">Ekstrakurikuler</Link>
+                      </li>
+                      <li>
+                        <Link href="#">Program Unggulan</Link>
+                      </li>
+                      <li>
+                        <Link href="#">Program Internasional</Link>
+                      </li>
+                      <li>
+                        <Link href="#">Program Beasiswa</Link>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="col-xl-3 col-md-5 col-lg-3">
+                  <div className="tf__footer_content">
                     <h3>Hubungi Kami</h3>
                     <p>
                       Jl. Kemang, Pasir Putih, Kec. Sawangan, Kota Depok, Jawa
@@ -131,19 +153,6 @@ const FooterSection2 = ({ style, logo }: Props) => {
                         </Link>{" "}
                       </span>
                     </p>
-                  </div>
-                </div>
-                <div className="col-xl-3 col-md-5 col-lg-3">
-                  <div className="tf__footer_content">
-                    <h3>News Letter</h3>
-                    <p>
-                      Pendekatan kami terhadap keunikannya seputar pekerjaan
-                      yang diketahui dan kami tahu Dapatkan apa yang Anda suka
-                    </p>
-                    <form>
-                      <input type="text" placeholder="Email Anda" />
-                      <button>kirim</button>
-                    </form>
                   </div>
                 </div>
 

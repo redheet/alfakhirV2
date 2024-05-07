@@ -1,18 +1,34 @@
 "use client";
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import { toast } from "react-toastify";
+import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
+  const form = useRef<HTMLFormElement>(null);
+
   const handleFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
+    emailjs
+      .sendForm("service_7audsl6", "template_fb03s58", form.current!, {
+        publicKey: "pH7N3_F_Kl4F08hfw",
+      })
+      .then(
+        () => {
+          console.log("SUCCESS!");
+        },
+        (error) => {
+          console.log("FAILED...", error.text);
+        }
+      );
+
     if (!name || !email || !message) {
       toast.error("Please fill out all fields.", { position: "top-right" });
-    }  else {
+    } else {
       // If the form is successfully submitted, show a success toast
       toast.success("Form submitted successfully!", {
         position: "top-right",
@@ -24,12 +40,13 @@ const ContactForm = () => {
   };
 
   return (
-    <form onSubmit={handleFormSubmit}>
+    <form ref={form} onSubmit={handleFormSubmit}>
       <div className="row">
         <div className="col-xl-6">
           <input
+            name="user_name"
             type="text"
-            placeholder="Name"
+            placeholder="Nama Anda"
             value={name}
             onChange={(e) => setName(e.target.value)}
             required
@@ -37,8 +54,9 @@ const ContactForm = () => {
         </div>
         <div className="col-xl-6">
           <input
+            name="user_email"
             type="email"
-            placeholder="Email"
+            placeholder="Email Anda"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
@@ -46,14 +64,15 @@ const ContactForm = () => {
         </div>
         <div className="col-xl-12">
           <textarea
+            name="message"
             rows={8}
-            placeholder="Message"
+            placeholder="Masukkan Pesan Anda ..."
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             required
           ></textarea>
-          <button type="submit" className="common_btn_2">
-            SEND REQUEST
+          <button type="submit" className="common_btn_2" value="Send">
+            Kirim
           </button>
         </div>
       </div>

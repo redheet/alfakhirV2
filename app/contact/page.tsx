@@ -5,13 +5,13 @@ import React from "react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "AlFakhir Contact",
-  description: "Developed by Azizur Rahman",
+  title: "Hubungi Kami | SMP Islam Modern Al-Fakhir",
+  description: "Kontak SMP Islam Modern Al-Fakhir",
 };
 const page = () => {
   return (
     <Layout>
-      <BreadcrumbSection header="Contact Us" title="Contact us" />
+      <BreadcrumbSection header="Hubungi Kami" title="Hubungi Kami" />
       <ContactPageSection />
     </Layout>
   );
