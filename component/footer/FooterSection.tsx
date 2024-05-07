@@ -52,7 +52,7 @@ const FooterSection = () => {
             </div>
             <div className="col-xl-2 col-sm-10 col-md-5 col-lg-5">
               <div className="tf__footer_content xs_mt_50">
-                <h3>Tautan</h3>
+                <h3>Helpful Links</h3>
                 <ul>
                   <li>
                     <Link href="/#tujuan">Tujuan Sekolah</Link>
@@ -79,6 +79,28 @@ const FooterSection = () => {
             </div>
             <div className="col-xl-3 col-sm-10 col-md-7 col-lg-col-lg-6">
               <div className="tf__footer_content xs_mt_30">
+                <h3>Program</h3>
+                <ul>
+                  <li>
+                    <Link href="#">Kurikulum</Link>
+                  </li>
+                  <li>
+                    <Link href="#">Ekstrakurikuler</Link>
+                  </li>
+                  <li>
+                    <Link href="#">Program Unggulan</Link>
+                  </li>
+                  <li>
+                    <Link href="#">Program Internasional</Link>
+                  </li>
+                  <li>
+                    <Link href="#">Program Beasiswa</Link>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-xl-3 col-sm-10 col-md-5 col-lg-4 col-lg-5">
+              <div className="tf__footer_content xs_mt_45">
                 <h3>Hubungi Kami</h3>
                 <p>
                   Jl. Kemang, Pasir Putih, Kec. Sawangan, Kota Depok, Jawa Barat
@@ -99,19 +121,6 @@ const FooterSection = () => {
                     </Link>{" "}
                   </span>
                 </p>
-              </div>
-            </div>
-            <div className="col-xl-3 col-sm-10 col-md-5 col-lg-4 col-lg-5">
-              <div className="tf__footer_content xs_mt_45">
-                <h3>News Letter</h3>
-                <p>
-                  Pendekatan kami terhadap keunikannya seputar pekerjaan yang
-                  diketahui dan kami tahu Dapatkan apa yang Anda suka
-                </p>
-                <form>
-                  <input type="text" placeholder="Email Anda" />
-                  <button>kirim</button>
-                </form>
               </div>
             </div>
           </div>
