@@ -330,13 +330,13 @@ button {
 .tf__breadcrumb .container::after {
   position: absolute;
   content: "";
-  background: url(../images/breadcrumb_bg_img.png);
+  /* background: url(../images/data.png); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   width: 500px;
   height: 515px;
-  top: -125px;
+  top: -95px;
   right: 0;
   z-index: 1;
 }
@@ -990,7 +990,7 @@ button {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
   top: -150px;
-  background-image: url(../images/about_top_bg.jpg);
+  background-image: url(../images/activities_bg.jpg);
 }
 
 .tf__about_top::after {
@@ -2214,7 +2214,7 @@ button {
   background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
-  background-image: url(../images/footer_bg.jpg);
+  background-image: url(../images/event_img_10.png);
 }
 
 .tf__footer_overlay {
