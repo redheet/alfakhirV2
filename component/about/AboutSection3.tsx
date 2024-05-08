@@ -84,7 +84,7 @@ const AboutSection3 = ({ style }: Props) => {
                 bersekolah di sekolah ini menjadi sosok yang membanggakan bagi
                 dirinya sendiri, keluarga, juga masyarakat.{" "}
               </p>
-              <ul>
+              {/* <ul>
                 <li>
                   <div className="icon">
                     <img
@@ -145,7 +145,7 @@ const AboutSection3 = ({ style }: Props) => {
                     </p>
                   </div>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
           <div className="col-12 mt_110 xs_mt_100 wow fadeInUp">
