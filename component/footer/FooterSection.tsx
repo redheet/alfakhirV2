@@ -55,7 +55,12 @@ const FooterSection = () => {
                 <h3>Helpful Links</h3>
                 <ul>
                   <li>
-                    <Link href="/#tujuan">Tujuan Sekolah</Link>
+                    <Link
+                      href="https://e-learning.smpialfakhir.sch.id/"
+                      target="_blank"
+                    >
+                      Online Learning
+                    </Link>
                   </li>
                   <li>
                     <Link href="/#visimisi">Visi & Misi</Link>
@@ -132,7 +137,7 @@ const FooterSection = () => {
                 </p>
                 <ul className="d-flex flex-wrap">
                   <li>
-                    <Link href="/privacy-policy">Kebijakan pribadi</Link>
+                    <Link href="/#">Kebijakan pribadi</Link>
                   </li>
                   <li>
                     <Link href="/about">Tentang Kami</Link>
