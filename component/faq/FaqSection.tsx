@@ -4,14 +4,14 @@ import React, { useState } from "react";
 type Props = {
   img: string;
   faqData: FaqType[];
-}
-const FaqSection = ({ img,faqData }: Props) => {
+};
+const FaqSection = ({ img, faqData }: Props) => {
   const [openAccordion, setOpenAccordion] = useState<number | null>(0);
 
   const handleAccordionBtn = (itemId: number) => {
     setOpenAccordion((prevState) => (prevState === itemId ? null : itemId));
   };
-  
+
   return (
     <section className="tf__faq mt_100 pt_95 xs_pt_100 pb_100">
       <div className="container">
@@ -24,20 +24,17 @@ const FaqSection = ({ img,faqData }: Props) => {
           <div className="col-xl-6 col-lg-6 wow fadeInRight">
             <div className="tf__faq_text">
               <div className="tf__heading_area tf__heading_area_left mb_25">
-                <h5>Our Education FAQ</h5>
-                <h2>Got Questions? Here Are Your Answers - FAQ</h2>
+                <h5>FAQ</h5>
+                <h2>Punya pertanyaan? Inilah Jawaban Anda </h2>
               </div>
               <p className="description">
-                Business tailored it design, management & support services
-                business agency elit, sed do eiusmod tempor.{" "}
+                Jawaban disini mungkin dapat membantu pertanyaan kalian, jika
+                ada pertanyaan yang lain silahkan kirim pesan kepada kami.{" "}
               </p>
               <div className="tf__faq_accordion">
                 <div className="accordion" id="accordionExample">
-                  {faqData?.slice(0,4).map((item,index) => (
-                    <div
-                      className={`accordion-item ${item.color}`}
-                      key={index}
-                    >
+                  {faqData?.slice(0, 4).map((item, index) => (
+                    <div className={`accordion-item ${item.color}`} key={index}>
                       <h2 className="accordion-header" id="headingOne">
                         <button
                           className={`accordion-button ${
