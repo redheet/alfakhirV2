@@ -17,16 +17,16 @@ const FooterSection2 = ({ style, logo }: Props) => {
       <div className="container">
         <div className="tf__footer_apply">
           <div className="tf__footer_apply_overlay">
-            <a className="venobox" role="button" onClick={handleVideoShow}>
+            {/* <a className="venobox" role="button" onClick={handleVideoShow}>
               <i className="fas fa-play"></i>
-            </a>
-            <h3>Let’s See More About AlFakhir!</h3>
+            </a> */}
+            {/* <h3>Ketahui kami lebih lanjut</h3> */}
             <p>
-              There are many variations of passages of agency Lorem Ipsum Fasts
-              injecte.
+              Ayo gabung bersama Al-Fakhir untuk menjadikan anak lebih
+              berprestasi dan berakhlak baik.
             </p>
-            <Link className="apply_btn" href="#">
-              Apply Now
+            <Link className="apply_btn" href="https://pendaftaran.smpialfakhir.sch.id/" target="_blank">
+              Gabung Sekarang
             </Link>
           </div>
         </div>
