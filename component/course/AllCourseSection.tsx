@@ -3,36 +3,33 @@ import { CourseType } from "@/types";
 import Link from "next/link";
 import React, { useState } from "react";
 interface Props {
-  courseData: CourseType[]
+  courseData: CourseType[];
 }
-const AllCourseSection = ({courseData} : Props) => {
+const AllCourseSection = ({ courseData }: Props) => {
   const coursePerPage = 6;
 
   const [currentCoursePage, setCurrentCoursePage] = useState(1);
 
   const startCourseIndex = (currentCoursePage - 1) * coursePerPage;
   const endCourseIndex = startCourseIndex + coursePerPage;
-  const currentCourseItems = courseData.slice(
-    startCourseIndex,
-    endCourseIndex
-  );
+  const currentCourseItems = courseData.slice(startCourseIndex, endCourseIndex);
 
   const totalCoursePages = Math.ceil(courseData.length / coursePerPage);
 
-  const handleCoursePageChange = (newPage : number) => {
+  const handleCoursePageChange = (newPage: number) => {
     setCurrentCoursePage(newPage);
     setTimeout(() => {
       window.scrollTo(0, 200);
     }, 500);
-  }
+  };
   return (
     <section className="tf__courses_page mt_190 xs_mt_95">
       <div className="container">
         <div className="row wow fadeInUp">
           <div className="col-xl-6 col-md-8 col-lg-6 m-auto">
             <div className="tf__heading_area mb_15">
-              <h5>OUR POPULAR COURSES</h5>
-              <h2>Educational For Students Popular Courses.</h2>
+              <h5>Program</h5>
+              <h2>Program Kami</h2>
             </div>
           </div>
         </div>
@@ -56,7 +53,8 @@ const AllCourseSection = ({courseData} : Props) => {
                     <i className="fas fa-user"></i> {item.instructor}
                   </li>
                   <li>
-                    <i className="fas fa-folder-open"></i> {item.lessons} lessons
+                    <i className="fas fa-folder-open"></i> {item.lessons}{" "}
+                    lessons
                   </li>
                 </ul>
                 <div className="tf__single_courses_text">

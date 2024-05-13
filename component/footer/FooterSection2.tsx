@@ -17,16 +17,16 @@ const FooterSection2 = ({ style, logo }: Props) => {
       <div className="container">
         <div className="tf__footer_apply">
           <div className="tf__footer_apply_overlay">
-            <a className="venobox" role="button" onClick={handleVideoShow}>
+            {/* <a className="venobox" role="button" onClick={handleVideoShow}>
               <i className="fas fa-play"></i>
-            </a>
-            <h3>Let’s See More About AlFakhir!</h3>
+            </a> */}
+            {/* <h3>Ketahui kami lebih lanjut</h3> */}
             <p>
-              There are many variations of passages of agency Lorem Ipsum Fasts
-              injecte.
+              Ayo gabung bersama Al-Fakhir untuk menjadikan anak lebih
+              berprestasi dan berakhlak baik.
             </p>
-            <Link className="apply_btn" href="#">
-              Apply Now
+            <Link className="apply_btn" href="https://pendaftaran.smpialfakhir.sch.id/" target="_blank">
+              Gabung Sekarang
             </Link>
           </div>
         </div>
@@ -85,7 +85,12 @@ const FooterSection2 = ({ style, logo }: Props) => {
                     <h3>Helpful Links</h3>
                     <ul>
                       <li>
-                        <Link href="/#tujuan">Tujuan Sekolah</Link>
+                        <Link
+                          href="https://e-learning.smpialfakhir.sch.id/"
+                          target="_blank"
+                        >
+                          Online Learning
+                        </Link>
                       </li>
                       <li>
                         <Link href="/#visimisi">Visi & Misi</Link>
@@ -164,7 +169,7 @@ const FooterSection2 = ({ style, logo }: Props) => {
                     </p>
                     <ul className="d-flex flex-wrap">
                       <li>
-                        <Link href="/privacy-policy">Kebijakan pribadi</Link>
+                        <Link href="/#">Kebijakan pribadi</Link>
                       </li>
                       <li>
                         <Link href="/about">Tentang Kami</Link>

@@ -5,7 +5,7 @@ import React, { useState } from "react";
 interface Props {
   blogData: BlogType[];
 }
-const AllBlogSection = ({blogData} : Props) => {
+const AllBlogSection = ({ blogData }: Props) => {
   const blogPerPage = 6;
 
   const [currentBlogPage, setCurrentBlogPage] = useState(1);
@@ -16,7 +16,7 @@ const AllBlogSection = ({blogData} : Props) => {
 
   const totalBlogPages = Math.ceil(blogData.length / blogPerPage);
 
-  const handleBlogPageChange = (newPage : number) => {
+  const handleBlogPageChange = (newPage: number) => {
     setCurrentBlogPage(newPage);
     setTimeout(() => {
       window.scrollTo(0, 200);
@@ -28,8 +28,8 @@ const AllBlogSection = ({blogData} : Props) => {
         <div className="row wow fadeInUp">
           <div className="col-xl-6 col-md-8 col-lg-6 m-auto">
             <div className="tf__heading_area mb_15">
-              <h5>LATEST NEWS & BLOG</h5>
-              <h2>Our latest Blog And News.</h2>
+              <h5>BERITA & BLOG TERBARU</h5>
+              <h2>Blog Dan Berita Terbaru Kami.</h2>
             </div>
           </div>
         </div>

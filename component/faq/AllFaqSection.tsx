@@ -4,7 +4,7 @@ import React, { useState } from "react";
 interface Props {
   faqData: FaqType[];
 }
-const AllFaqSection = ({faqData} : Props) => {
+const AllFaqSection = ({ faqData }: Props) => {
   const [openAccordion, setOpenAccordion] = useState<number | null>(0);
 
   const handleAccordionBtn = (itemId: number) => {
@@ -16,8 +16,8 @@ const AllFaqSection = ({faqData} : Props) => {
         <div className="row">
           <div className="col-xl-6 col-md-8 col-lg-6 m-auto wow fadeInUp">
             <div className="tf__heading_area mb_10">
-              <h5>OUR EDUCATION Faq</h5>
-              <h2>District is Made of about Students Childhood.</h2>
+              <h5>FAQ</h5>
+              <h2>Punya pertanyaan? Inilah Jawaban Anda</h2>
             </div>
           </div>
         </div>
@@ -26,11 +26,8 @@ const AllFaqSection = ({faqData} : Props) => {
             <div className="tf__faq_text">
               <div className="tf__faq_accordion">
                 <div className="accordion" id="accordionExample">
-                  {faqData?.map((item,index) => (
-                    <div
-                      className={`accordion-item ${item.color}`}
-                      key={index}
-                    >
+                  {faqData?.map((item, index) => (
+                    <div className={`accordion-item ${item.color}`} key={index}>
                       <h2 className="accordion-header" id="headingOne">
                         <button
                           className={`accordion-button ${

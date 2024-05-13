@@ -84,17 +84,39 @@ const AboutSection3 = ({ style }: Props) => {
                 bersekolah di sekolah ini menjadi sosok yang membanggakan bagi
                 dirinya sendiri, keluarga, juga masyarakat.{" "}
               </p>
+              <p>
+                Tujuan sekolah kami yaitu Sebagai ruang formal dalam membentuk
+                generasi Islami Modern yang berpengetahuan luas, berakhlak baik
+                dan dapat menerapkan ilmu pengetahuan di berbagai aspek
+                kehidupan untuk kesuksesan hidup di dunia dan di akhirat.
+              </p>
               {/* <ul>
                 <li>
                   <div className="icon">
                     <img
-                      src="images/about_2_icon_1.jpg"
+                      src="images/check-mark.png"
                       alt="about"
                       className="img-fluid w-100"
                     />
                   </div>
                   <div className="text">
-                    <h4>Successflly Trained</h4>
+                    <h4>Fasilitas </h4>
+                    <p>
+                      Kami menyediakan fasilitas ruangan kelas ber AC agar siswa
+                      dapat belajar dengan nyaman.
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div className="icon">
+                    <img
+                      src="images/check-mark.png"
+                      alt="about"
+                      className="img-fluid w-100"
+                    />
+                  </div>
+                  <div className="text">
+                    <h4></h4>
                     <p>
                       Business tailored it design, management support services.
                     </p>
@@ -103,22 +125,7 @@ const AboutSection3 = ({ style }: Props) => {
                 <li>
                   <div className="icon">
                     <img
-                      src="images/about_2_icon_2.jpg"
-                      alt="about"
-                      className="img-fluid w-100"
-                    />
-                  </div>
-                  <div className="text">
-                    <h4>Education Growth</h4>
-                    <p>
-                      Business tailored it design, management support services.
-                    </p>
-                  </div>
-                </li>
-                <li>
-                  <div className="icon">
-                    <img
-                      src="images/about_2_icon_3.jpg"
+                      src="images/check-mark.png"
                       alt="about"
                       className="img-fluid w-100"
                     />
@@ -133,7 +140,7 @@ const AboutSection3 = ({ style }: Props) => {
                 <li>
                   <div className="icon">
                     <img
-                      src="images/about_2_icon_4.jpg"
+                      src="images/check-mark.png"
                       alt="about"
                       className="img-fluid w-100"
                     />
