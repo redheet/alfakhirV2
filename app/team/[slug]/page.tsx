@@ -9,7 +9,7 @@ import { getTeam } from "@/sanity/sanity.query";
 
 export const metadata: Metadata = {
   title: "AlFakhir Team Details",
-  description: "Developed by Azizur Rahman",
+  description: "Developed by Nozazi",
 };
 const page = async ({ params }: { params: { slug: string } }) => {
   const teamData: TeamType[] = await getTeam();

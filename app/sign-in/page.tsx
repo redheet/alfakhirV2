@@ -6,7 +6,7 @@ import LoginSection from "@/component/authentication/LoginSection";
 
 export const metadata: Metadata = {
   title: "AlFakhir Sign In",
-  description: "Developed by Azizur Rahman",
+  description: "Developed by Nozazi",
 };
 const page = () => {
   return (

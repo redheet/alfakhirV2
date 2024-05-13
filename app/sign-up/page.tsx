@@ -6,7 +6,7 @@ import RegisterSection from "@/component/authentication/RegisterSection";
 
 export const metadata: Metadata = {
   title: "AlFakhir Sign Up",
-  description: "Developed by Azizur Rahman",
+  description: "Developed by Nozazi",
 };
 const page = () => {
   return (
