@@ -25,7 +25,7 @@ import {
 
 export const metadata: Metadata = {
   title: "Tentang Kami | SMP Islam Modern Al-Fakhir",
-  description: "Developed by Azizur Rahman",
+  description: "Developed by Nozazi",
 };
 const page = async () => {
   const serviceData: ServiceType[] = await getService();
