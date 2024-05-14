@@ -7,7 +7,7 @@ interface Props {
   teamInfo: TeamType;
   teamDataArray: TeamType[];
 }
-const TeamDetailSection = ({ teamInfo,teamDataArray } : Props) => {
+const TeamDetailSection = ({ teamInfo, teamDataArray }: Props) => {
   return (
     <section className="tf__team_details_page mt_195 xs_mt_100">
       <div className="container">
@@ -54,21 +54,19 @@ const TeamDetailSection = ({ teamInfo,teamDataArray } : Props) => {
           </div>
           <div className="col-12 wow fadeInUp">
             <div className="tf__team_description mt_55">
-              <p>
-                {teamInfo.content}
-              </p>
-              <ul className="d-flex flex-wrap mt_10">
+              <p>{teamInfo.content}</p>
+              {/* <ul className="d-flex flex-wrap mt_10">
                 <li>Business school's Institut constructivism.</li>
                 <li>We give management school best.</li>
                 <li>Media in this school solution.</li>
                 <li>Business school's Institut constructivism.</li>
                 <li>We give management school best.</li>
                 <li>Media in this school solution.</li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>
-        <div className="tf__counter_area mt_95 wow fadeInUp">
+        {/* <div className="tf__counter_area mt_95 wow fadeInUp">
           <ul className="d-flex flex-wrap">
             <li className="tf__single_counter">
               <h2 className="counter">
@@ -95,13 +93,13 @@ const TeamDetailSection = ({ teamInfo,teamDataArray } : Props) => {
               <h4>Success Rate</h4>
             </li>
           </ul>
-        </div>
+        </div> */}
         <div className="tf__another_team mt_95">
           <div className="row wow fadeInUp">
             <div className="col-xl-6 col-md-8 col-lg-6 m-auto">
               <div className="tf__heading_area mb_15">
-                <h5>OUR Meet Team</h5>
-                <h2>Become A Instruction Instructor Teacher.</h2>
+                <h5>Team</h5>
+                <h2>Struktur Organisasi Sekolah</h2>
               </div>
             </div>
           </div>
