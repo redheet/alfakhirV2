@@ -64,6 +64,7 @@ export type TeamType = {
     designation: string,
     slug: string,
     about: string,
+    content: string,
     phone: number,
 }
 

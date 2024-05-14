@@ -48,6 +48,11 @@ const team = {
         type: "text"
       },
       {
+        name: "content",
+        title: "Content",
+        type: "text"
+      },
+      {
         name: "phone",
         title: "Phone",
         type: "number"
