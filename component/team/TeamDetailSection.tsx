@@ -25,7 +25,7 @@ const TeamDetailSection = ({ teamInfo,teamDataArray } : Props) => {
             <div className="tf__team_details_text">
               <h3>Team Details:</h3>
               <p>Name : {teamInfo.name}</p>
-              <p>About : {teamInfo.about}</p>
+              <p>Title : {teamInfo.about}</p>
               <p>Call: {teamInfo.phone}</p>
               <ul className="d-flex flex-wrap align-items-center">
                 <li>Follow us:</li>
@@ -55,16 +55,7 @@ const TeamDetailSection = ({ teamInfo,teamDataArray } : Props) => {
           <div className="col-12 wow fadeInUp">
             <div className="tf__team_description mt_55">
               <p>
-                There are many variations of passages of Lorem Ipsum Fasts There
-                are many variations of passages of Lorem Ipsum Fastsby we are
-                the fast to mane injected humour,by injected humour, or
-                randomised coved ceilings. are bound to ensue; and equal blame
-                belongs can to bo erwtg mont be fao go not be hie best to those
-                who through weakness. There are many variations of passages of
-                Lorem Ipsum Fasts There are many variations of passages of Lorem
-                Ipsum Fastsby we are the fast to mane injected humour,by
-                injected humour, or randomised coved ceilings. are bound to
-                ensue; and equal blame belongs can to bo erwtg mont.
+                {teamInfo.content}
               </p>
               <ul className="d-flex flex-wrap mt_10">
                 <li>Business school's Institut constructivism.</li>
