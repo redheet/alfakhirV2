@@ -69,6 +69,7 @@ export async function getTeam() {
       designation,
       "slug": slug.current,
       about,
+      content,
       phone
     }`
   );
