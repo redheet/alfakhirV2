@@ -6,7 +6,7 @@ import { EventType } from "@/types";
 import type { Metadata } from "next";
 import React from "react";
 export const metadata: Metadata = {
-  title: "AlFakhir Events",
+  title: "Events | SMP Islam Modern Al-Fakhir",
   description: "Developed by Nozazi",
 };
 const page = async () => {
