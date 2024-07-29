@@ -28,8 +28,8 @@ const AllCourseSection = ({ courseData }: Props) => {
         <div className="row wow fadeInUp">
           <div className="col-xl-6 col-md-8 col-lg-6 m-auto">
             <div className="tf__heading_area mb_15">
-              <h5>Program</h5>
-              <h2>Program Kami</h2>
+              <h5>Fasilitas</h5>
+              <h2>Fasilitas Kami</h2>
             </div>
           </div>
         </div>
@@ -40,7 +40,7 @@ const AllCourseSection = ({ courseData }: Props) => {
                 <div className="tf__single_courses_img">
                   <img
                     src={item.imgSrc.image}
-                    alt="courses"
+                    alt="Fasilitas Kami"
                     className="img-fluid w-100"
                   />
                   <a className={`categories ${item.color}`} href="#">

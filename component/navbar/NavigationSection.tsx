@@ -42,16 +42,13 @@ const NavigationSection = ({ position, btnPosition, navRef }: Props) => {
               <SubNavlink href="/team">team</SubNavlink>
             </li>
             <li>
-              <SubNavlink href="/courses">program</SubNavlink>
+              <SubNavlink href="/facility">Fasilitas Kami</SubNavlink>
             </li>
             <li>
               <SubNavlink href="/blog">berita</SubNavlink>
             </li>
             <li>
               <SubNavlink href="/#program">Program Kami</SubNavlink>
-            </li>
-            <li>
-              <SubNavlink href="#">Fasilitas Kami</SubNavlink>
             </li>
             <li>
               {/* <SubNavlink href="/team/john-smith">team details </SubNavlink> */}

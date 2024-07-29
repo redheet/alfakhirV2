@@ -7,7 +7,7 @@ import { BlogType } from "@/types";
 import { getBlog } from "@/sanity/sanity.query";
 
 export const metadata: Metadata = {
-  title: "AlFakhir Blog",
+  title: "Berita | SMP Islam Modern Al-Fakhir",
   description: "Developed by Nozazi",
 };
 const page = async () => {

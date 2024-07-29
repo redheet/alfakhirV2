@@ -1,6 +1,6 @@
 const category = {
-    name: "category",
-    title: "Category",
+    name: "visimisi",
+    title: "Visi & Misi",
     type: "document",
     fields: [
       {

@@ -1,6 +1,6 @@
 const course = {
-    name: "course",
-    title: "Course",
+    name: "facility",
+    title: "Facility",
     type: "document",
     fields: [
       {

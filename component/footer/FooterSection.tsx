@@ -56,7 +56,7 @@ const FooterSection = () => {
                 <ul>
                   <li>
                     <Link
-                      href="https://e-learning.smpialfakhir.sch.id/"
+                      href="https://lms.smpialfakhir.sch.id/"
                       target="_blank"
                     >
                       Online Learning

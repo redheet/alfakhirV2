@@ -2,7 +2,7 @@ import AboutSection3 from "@/component/about/AboutSection3";
 import ActivitySection2 from "@/component/activity/ActivitySection2";
 import BlogSection from "@/component/blog/BlogSection";
 import BreadcrumbSection from "@/component/breadcrumb/BreadcrumbSection";
-import CourseSection from "@/component/course/CourseSection";
+import CourseSection from "@/component/courses/CourseSection";
 import FaqSection from "@/component/faq/FaqSection";
 import Layout from "@/component/layout/Layout";
 import PopularServiceSection2 from "@/component/service/PopularServiceSection2";

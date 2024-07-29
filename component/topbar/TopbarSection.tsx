@@ -39,14 +39,14 @@ const TopbarSection = ({ style }: Props) => {
               <ul className="d-flex flex-wrap">
                 <li>
                   <a
-                    href="https://e-learning.smpialfakhir.sch.id"
+                    href="https://lms.smpialfakhir.sch.id"
                     target="_blank"
                   >
                     login
                   </a>
                 </li>
                 <li>
-                  <a href="#">your help</a>
+                  <a href="https://wa.me/6285281752123">your help</a>
                 </li>
                 {/* <li>
                   <a href="#">

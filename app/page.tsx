@@ -8,7 +8,7 @@ import ActivitySection2 from "@/component/activity/ActivitySection2";
 import ContactSection2 from "@/component/contact/ContactSection2";
 import TeamSection from "@/component/team/TeamSection";
 import CounterSection from "@/component/counter/CounterSection";
-import CourseSection2 from "@/component/course/CourseSection2";
+import CourseSection2 from "@/component/courses/CourseSection2";
 import ContactSection from "@/component/contact/ContactSection";
 import AboutSection3 from "@/component/about/AboutSection3";
 import CategorySection3 from "@/component/category/CategorySection3";
