@@ -42,7 +42,7 @@ const page = async () => {
         {/* {courseData && (
           <CourseSection style="tf__popular_courses" courseData={courseData} />
         )} */}
-        {faqData && <FaqSection img="images/faq_2.png" faqData={faqData} />}
+        {faqData && <FaqSection img="images/faq/faq-images.png" faqData={faqData} />}
         {activityData && (
           <ActivitySection2
             style="tf__activities_slider_area pt_95 pb_100"

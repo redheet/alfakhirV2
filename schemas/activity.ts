@@ -1,6 +1,6 @@
 const activity = {
     name: "program",
-    title: "Program",
+    title: "Program About",
     type: "document",
     fields: [
       {
