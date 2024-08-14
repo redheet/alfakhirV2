@@ -74,13 +74,16 @@ const AboutSection = () => {
             <div className="tf__about_text">
               <div className="tf__heading_area tf__heading_area_left mb_25">
                 <h5>visi & misi</h5>
-                <h2>Visi - Misi</h2>
+                <h2>Visi Sekolah</h2>
               </div>
               <p>
                 Terwujudnya pendidikan yang bermutu tinggi dalam membentuk
                 siswa-siswi yang berakhlak, modern, dan menjadi kebanggaan orang
                 tua, masyarakat, bangsa dan negara.{" "}
               </p>
+              <div className="tf__heading_area tf__heading_area_left mb_25">
+                <h2>Misi Sekolah</h2>
+              </div>
               <ul>
                 <li>Beribadah dengan benar.</li>
                 <li>Berakhlak Mulia.</li>
@@ -97,7 +100,7 @@ const AboutSection = () => {
           <div className="col-xl-6 col-sm-9 col-md-8 col-lg-6 wow fadeInRight">
             <div className="tf__about_img">
               <img
-                src="/images/about-img.png"
+                src="/images/about/about-img-home.png"
                 alt="about"
                 className="img-fluid w-100"
               />
