@@ -31,108 +31,10 @@ const BlogDetailSection = ({ blogDesc,blogDataArray } : Props) => {
                 </ul>
                 <h3>{blogDesc.longTitle}</h3>
                 <p>{blogDesc.desc}</p>
-                <p>
-                  There are many variations of passages of Lorem Ipsum
-                  available, but the majority have suffered alteration in some
-                  form, by injected humour, or randomised words which don look
-                  even slightly believable. If you are going to use a passage of
-                  Lorem Ipsum,bean you need to be sure there isn't anything
-                  embarrassing hidden in the middle of text. All the Lorem Ipsum
-                  generators on the Internet tend to repeat predefined chunks
-                  necessary, making this the first true generator on the
-                  Internet.{" "}
-                </p>
-                <div className="tf__details_quot_text">
-                  <p>
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration in some
-                    form, by injected humour, oris ut. In interdum sem quis
-                    congue accumsan. Pellentesque convallis scelerisque eros.
-                    Etiam vestibulum ultricies finibus. . Nunc ac sem sit amet
-                    purus luctus lobortis dui inorci.
-                  </p>
-                  <h4>Porata Masat</h4>
-                  <h5>Devlopment</h5>
-                </div>
-                <div className="tf__blog_details_center_img">
-                  <img
-                    src="/images/blog_details_center_img.jpg"
-                    alt="blog details"
-                    className="img-fluid w-100"
-                  />
-                </div>
-                <p>
-                  Lorem ipsum is simply free text dolor sit amet, consectetur
-                  notted adipisicing elit eiusmod tempor incididunt ut abore et
-                  dolore magna aliqua lonm andhn is a lon established fact that
-                  a reader will be distracted by the readable content
-                </p>
-                <ul className="list">
-                  <li>Business school's Institut constructivism.</li>
-                  <li>We give management school best.</li>
-                  <li>Media in this school solution.</li>
-                </ul>
+
+                
               </div>
-              <div className="tf__blog_comment mt_60 wow fadeInUp">
-                <h3>Comments (3)</h3>
-                <div className="tf__single_comment">
-                  <div className="tf__single_comment_img">
-                    <img
-                      src="/images/client_img_1.png"
-                      alt="client"
-                      className="img-fluid w-100"
-                    />
-                  </div>
-                  <div className="tf__single_comment_text">
-                    <h4>Rubel Merat</h4>
-                    <p>
-                      Lorem ipsum is simply free textdolor sit amet, consectetur
-                      notted adipisicing elit sed do iusmod tempor incididu.
-                    </p>
-                    <span>
-                      31 jan 2023 at 03.16 pm <a href="#">reply</a>
-                    </span>
-                  </div>
-                </div>
-                <div className="tf__single_comment reply">
-                  <div className="tf__single_comment_img">
-                    <img
-                      src="/images/client_img_2.png"
-                      alt="client"
-                      className="img-fluid w-100"
-                    />
-                  </div>
-                  <div className="tf__single_comment_text">
-                    <h4>Korat Berata</h4>
-                    <p>
-                      Lorem ipsum is simply free textdolor sit amet, consectetur
-                      notted adipisicing elit sed do iusmod tempor incididu.
-                    </p>
-                    <span>
-                      31 jan 2023 at 03.16 pm <a href="#">reply</a>
-                    </span>
-                  </div>
-                </div>
-                <div className="tf__single_comment">
-                  <div className="tf__single_comment_img">
-                    <img
-                      src="/images/client_img_3.png"
-                      alt="client"
-                      className="img-fluid w-100"
-                    />
-                  </div>
-                  <div className="tf__single_comment_text">
-                    <h4>Norat Berata</h4>
-                    <p>
-                      Lorem ipsum is simply free textdolor sit amet, consectetur
-                      notted adipisicing elit sed do iusmod tempor incididu.
-                    </p>
-                    <span>
-                      31 jan 2023 at 03.16 pm <a href="#">reply</a>
-                    </span>
-                  </div>
-                </div>
-              </div>
+              
               <div className="tf__comment_reply mt_65 wow fadeInUp">
                 <h3>leave a Comment</h3>
                 <form>
@@ -162,19 +64,6 @@ const BlogDetailSection = ({ blogDesc,blogDataArray } : Props) => {
                   </button>
                 </form>
               </div>
-              <div className="tf__sidebar_certificate">
-                <span>
-                  <i className="fas fa-share-alt"></i>
-                </span>
-                <h3>Online Certificates</h3>
-                <p>
-                  We can provide you with a reliable handyan in London. you need
-                  to included the today.
-                </p>
-                <a href="#">
-                  <i className="fas fa-long-arrow-right"></i>
-                </a>
-              </div>
               <div className="tf__sidebar_blog sidebar_item">
                 <h3>Recent Post</h3>
                 <ul>
@@ -196,84 +85,6 @@ const BlogDetailSection = ({ blogDesc,blogDataArray } : Props) => {
                     </li>
                   ))}
                 </ul>
-              </div>
-              <div className="tf__sidebar_category sidebar_item">
-                <h3>Categories</h3>
-                <ul>
-                  <li>
-                    <a href="#">
-                      {" "}
-                      Business <span>(08)</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      {" "}
-                      Maintenance <span>(14)</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      {" "}
-                      Professional <span>(20)</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      {" "}
-                      Technology<span>(29)</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      {" "}
-                      Single-Business<span>(32)</span>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#">
-                      {" "}
-                      Innovation <span>(22)</span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div className="tf__sidebar_tags sidebar_item pr_10">
-                <h3>Tag</h3>
-                <ul className="d-flex flex-wrap">
-                  <li>
-                    <a href="#">design</a>
-                  </li>
-                  <li>
-                    <a href="#">service</a>
-                  </li>
-                  <li>
-                    <a href="#">top</a>
-                  </li>
-                  <li>
-                    <a href="#">help</a>
-                  </li>
-                  <li>
-                    <a href="#">new</a>
-                  </li>
-                  <li>
-                    <a href="#">best</a>
-                  </li>
-                  <li>
-                    <a href="#">UI/UX</a>
-                  </li>
-                  <li>
-                    <a href="#">sound</a>
-                  </li>
-                </ul>
-              </div>
-              <div className="tf__sidebar_apply">
-                <img
-                  src="/images/sidebar_img.jpg"
-                  alt="apply"
-                  className="img-fluid w-100"
-                />
-                <a href="#">apply now</a>
               </div>
             </div>
           </div>
