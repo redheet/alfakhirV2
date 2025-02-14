@@ -51,9 +51,6 @@ const NavigationSection = ({ position, btnPosition, navRef }: Props) => {
               <a href="https://drive.google.com/file/d/131ehjiNmtSd2b8bg2uZB0dzV5Wiflk57/view?usp=sharing" target="_balnk">Al-Fakhir Journey 2024</a>
             </li>
             <li>
-              <a href="/doc/ppdb.pdf">PPDB</a>
-            </li>
-            <li>
               <SubNavlink href="/#program">Program Kami</SubNavlink>
             </li>
             <li>
@@ -76,6 +73,23 @@ const NavigationSection = ({ position, btnPosition, navRef }: Props) => {
             <li>
               <SubNavlink href="/privacy-policy">privacy policy</SubNavlink>
             </li> */}
+          </ul>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link">
+            PPDB <i className="fa fa-angle-down"></i>
+          </a>
+          <ul className="tf__droap_menu">
+            <li>
+              <a 
+                href="https://drive.google.com/file/d/1P0zPv10dN_ZtIgZuUlitBmKXDllXAt4_/view?usp=sharing" 
+                target="_blank">
+                Video
+              </a>
+            </li>
+            <li>
+              <SubNavlink href="/pengumuman">Observasi Siswa</SubNavlink>
+            </li>
           </ul>
         </li>
         <li className="nav-item">
