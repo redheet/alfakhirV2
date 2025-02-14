@@ -10213,3 +10213,12 @@ section.tf__counter_3 {
     font-size: 30px;
   }
 }
+
+.pdf_viewer{
+  margin-top: 80px;
+}
+@media (min-width: 1400px) and (max-width: 1700px) {
+  .pdf_viewer{
+    margin-top: 10px;
+  }
+}

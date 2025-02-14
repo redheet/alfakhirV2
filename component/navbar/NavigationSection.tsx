@@ -76,6 +76,23 @@ const NavigationSection = ({ position, btnPosition, navRef }: Props) => {
           </ul>
         </li>
         <li className="nav-item">
+          <a className="nav-link">
+            PPDB <i className="fa fa-angle-down"></i>
+          </a>
+          <ul className="tf__droap_menu">
+            <li>
+              <a 
+                href="https://drive.google.com/file/d/1P0zPv10dN_ZtIgZuUlitBmKXDllXAt4_/view?usp=sharing" 
+                target="_blank">
+                Video
+              </a>
+            </li>
+            <li>
+              <SubNavlink href="/pengumuman">Observasi Siswa</SubNavlink>
+            </li>
+          </ul>
+        </li>
+        <li className="nav-item">
           <Navlink href="/contact">Hubungi Kami</Navlink>
         </li>
         {btnPosition ? null : (
