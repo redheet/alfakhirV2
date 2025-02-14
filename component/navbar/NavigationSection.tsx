@@ -51,6 +51,9 @@ const NavigationSection = ({ position, btnPosition, navRef }: Props) => {
               <a href="https://drive.google.com/file/d/131ehjiNmtSd2b8bg2uZB0dzV5Wiflk57/view?usp=sharing" target="_balnk">Al-Fakhir Journey 2024</a>
             </li>
             <li>
+              <a href="/doc/ppdb.pdf">PPDB</a>
+            </li>
+            <li>
               <SubNavlink href="/#program">Program Kami</SubNavlink>
             </li>
             <li>
