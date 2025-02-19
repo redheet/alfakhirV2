@@ -31,6 +31,7 @@ import {
   getTeam,
 } from "@/sanity/sanity.query";
 import AboutSection from "@/component/about/AboutSection";
+import BlogSection from "@/component/blog/BlogSection";
 
 export const metadata: Metadata = {
   title: "SMP Islam Modern Al-Fakhir | Home",
@@ -64,7 +65,7 @@ const page = async () => {
           activityData={activityData}
         />
       )}
-      {blogData && <BlogSection2 blogData={blogData} />}
+      {blogData && <BlogSection blogData={blogData} />}
       <FooterSection />
       <VideoModal />
       <ScrollToTopButton style="style-3" />
