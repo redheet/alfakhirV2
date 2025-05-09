@@ -48,7 +48,7 @@ const NavigationSection = ({ position, btnPosition, navRef }: Props) => {
               <SubNavlink href="/blog">berita</SubNavlink>
             </li>
             <li>
-              <a href="https://drive.google.com/file/d/131ehjiNmtSd2b8bg2uZB0dzV5Wiflk57/view?usp=sharing" target="_balnk">Al-Fakhir Journey 2024</a>
+              <SubNavlink href="/alfakhir-journey">Al-Fakhir Journey 2024</SubNavlink>
             </li>
             <li>
               <SubNavlink href="/#program">Program Kami</SubNavlink>
@@ -82,7 +82,7 @@ const NavigationSection = ({ position, btnPosition, navRef }: Props) => {
           <ul className="tf__droap_menu">
             <li>
               <a 
-                href="https://drive.google.com/file/d/1P0zPv10dN_ZtIgZuUlitBmKXDllXAt4_/view?usp=sharing" 
+                href="https://youtu.be/-92WZjYHiBA" 
                 target="_blank">
                 Video
               </a>
