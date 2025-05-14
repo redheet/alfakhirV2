@@ -15,7 +15,7 @@ const BlogSlider = ({blogData} : Props) => {
       dots={true}
       arrows={false}
       autoplay={true}
-      slidesToScroll={1}
+      slidesToScroll={2}
       responsive={[
         {
           breakpoint: 1400,
@@ -49,7 +49,7 @@ const BlogSlider = ({blogData} : Props) => {
         },
       ]}
     >
-      {blogData?.slice(0, 4).map((item) => (
+      {blogData?.slice(0, 99).map((item) => (
         <div className="col-xl-4 wow fadeInUp" key={item._id}>
           <div className="tf__single_blog">
             <Link className="tf__single_blog_img" href={`/blog/${item.slug}`}>
