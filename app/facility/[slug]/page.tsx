@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: "Fasilitas Kami | SMP Islam Modern Al-Fakhir",
   description: "Developed by Nozazi",
 };
-const page = async ({ params }: { params: { slug: string } }) => {
+const page = async ({ params }: { params: { slug: string } }) => { 
   const course: CourseType[] = await getCourse();
   const courseDesc = course.find((item) => item.slug === params.slug); // Use 'slug' here
 

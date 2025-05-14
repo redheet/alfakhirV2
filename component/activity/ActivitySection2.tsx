@@ -15,8 +15,8 @@ const ActivitySection2 = ({ style, activityData }: Props) => {
         <div className="row wow fadeInUp">
           <div className="col-xl-6 col-xxl-5 col-md-8 col-lg-6 m-auto">
             <div className="tf__heading_area mb_15">
-              <h5>Program</h5>
-              <h2>Program Yang Tersedia</h2>
+              <h5>Fasilitas</h5>
+              <h2>Fasilitas Kami</h2>
             </div>
           </div>
         </div>
