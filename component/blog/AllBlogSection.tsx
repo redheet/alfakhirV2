@@ -6,7 +6,7 @@ interface Props {
   blogData: BlogType[];
 }
 const AllBlogSection = ({ blogData }: Props) => {
-  const blogPerPage = 6;
+  const blogPerPage = 9;
 
   const [currentBlogPage, setCurrentBlogPage] = useState(1);
 
