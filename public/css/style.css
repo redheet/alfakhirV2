@@ -6480,11 +6480,11 @@ section.tf__counter_3 {
   height: 33.6px;
   border-bottom-color: transparent;
   border-left-color: transparent;
-  animation: loader-1o3y8q 0.75s infinite linear reverse;
+  animation: loader-1o3y8q 10s infinite linear reverse;
 }
 
 .loader::after {
-  animation: loader-1o3y8q 0.5s infinite linear;
+  animation: loader-1o3y8q 10s infinite linear;
   height: 56px;
   width: 56px;
   border-right-color: transparent;
