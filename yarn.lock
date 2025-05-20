@@ -3494,6 +3494,15 @@ framer-motion@11.0.8:
   optionalDependencies:
     "@emotion/is-prop-valid" "^0.8.2"
 
+framer-motion@^12.12.1:
+  version "12.12.1"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-12.12.1.tgz#b756079cc050be7fa6ae0d093ab0903fd3f15ca1"
+  integrity sha512-PFw4/GCREHI2suK/NlPSUxd+x6Rkp80uQsfCRFSOQNrm5pZif7eGtmG1VaD/UF1fW9tRBy5AaS77StatB3OJDg==
+  dependencies:
+    motion-dom "^12.12.1"
+    motion-utils "^12.12.1"
+    tslib "^2.4.0"
+
 from2@^2.1.0, from2@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/from2/-/from2-2.3.0.tgz#8bfb5502bde4a4d36cfdeea007fcca21d7e382af"
@@ -4359,6 +4368,18 @@ moment@^2.29.4:
   version "2.30.1"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.30.1.tgz#f8c91c07b7a786e30c59926df530b4eac96974ae"
   integrity sha512-uEmtNhbDOrWPFS+hdjFCBfy9f2YoyzRpwcl+DqpC6taX21FzsTLQVbMV/W7PzNSX6x/bhC1zA3c2UQ5NzH6how==
+
+motion-dom@^12.12.1:
+  version "12.12.1"
+  resolved "https://registry.yarnpkg.com/motion-dom/-/motion-dom-12.12.1.tgz#12f50c778ca295de337e28f3b4937da86e9098ea"
+  integrity sha512-GXq/uUbZBEiFFE+K1Z/sxdPdadMdfJ/jmBALDfIuHGi0NmtealLOfH9FqT+6aNPgVx8ilq0DtYmyQlo6Uj9LKQ==
+  dependencies:
+    motion-utils "^12.12.1"
+
+motion-utils@^12.12.1:
+  version "12.12.1"
+  resolved "https://registry.yarnpkg.com/motion-utils/-/motion-utils-12.12.1.tgz#63e28751325cb9d1cd684f3c273a570022b0010e"
+  integrity sha512-f9qiqUHm7hWSLlNW8gS9pisnsN7CRFRD58vNjptKdsqFLpkVnX00TNeD6Q0d27V9KzT7ySFyK1TZ/DShfVOv6w==
 
 ms@2.0.0:
   version "2.0.0"
@@ -6299,6 +6320,11 @@ yauzl@^2.4.2:
   dependencies:
     buffer-crc32 "~0.2.3"
     fd-slicer "~1.1.0"
+
+yet-another-react-lightbox@^3.23.2:
+  version "3.23.2"
+  resolved "https://registry.yarnpkg.com/yet-another-react-lightbox/-/yet-another-react-lightbox-3.23.2.tgz#e0fb50b2109947beb6abf3b2f4664a67addc3d71"
+  integrity sha512-nEEtFejdUTeF5VLVO0/uZ+Kw+BxQn4ODKyJkX1JACyXmILRE/++50BS3ylnFytRRWYOJjeeTcOS8o9B00ENTqA==
 
 yocto-queue@^0.1.0:
   version "0.1.0"
