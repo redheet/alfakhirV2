@@ -23,6 +23,7 @@ CSS INDEX
 14. SERVICES PAGE
 15. TEAM DETAILS PAGE
 16. TEAM PAGE
+17. GALLERY PAGE
 */
 
 /*==================================
@@ -1010,7 +1011,7 @@ button {
 
 .tf__about_top_img {
   height: 280px;
-  border-radius: 10px;
+  border-radius: 5px;
   overflow: hidden;
   position: relative;
   z-index: 1;
@@ -10221,4 +10222,58 @@ section.tf__counter_3 {
   .pdf_viewer{
     margin-top: 10px;
   }
+}
+
+  /*==================================
+        GALLERY START
+    ==================================*/
+
+/* lightbox image gallery */
+.images-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  gap: 1rem;
+}
+
+.image {
+  width: 100%;
+  height: 20rem;
+  cursor: pointer;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.inline-gallery-container {
+  width: 700px;
+  height: 500px;
+  position: relative;
+}
+
+/* youtube gallery video  */
+.video-container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.yt-video {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+@media (width <= 800px) {
+  .yt-video {
+    grid-template-columns: 1fr;
+  }
+}
+
+.text-sambutan {
+  text-align: justify;
 }
