@@ -12,7 +12,7 @@ const page = () => {
     <Layout>
      <iframe
       className="pdf_viewer"
-      src="https://drive.google.com/drive/u/0/folders/1LZtgS3q3X8GIx6hE-nQoKZe-KLLaq8Y1" 
+      src="https://drive.google.com/file/d/1NlB8y_jmbliMNeavUjd4wK7ma6OcIZ_U/preview" 
       width="100%" 
       height="1000" 
      />

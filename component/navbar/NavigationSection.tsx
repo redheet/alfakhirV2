@@ -22,14 +22,27 @@ const NavigationSection = ({ position, btnPosition, navRef }: Props) => {
     >
       <ul className={`navbar-nav ${position}`}>
         <li className="nav-item">
-          <Navlink href="/">Home</Navlink>
+          <Navlink href="/">Beranda</Navlink>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <Navlink href="/about">Tentang Kami</Navlink>
+        </li> */}
+        <li className="nav-item">
+          <a className="nav-link">
+            Tentang Kami <i className="fa fa-angle-down"></i>
+          </a>
+          <ul className="tf__droap_menu">
+            <li>
+              <SubNavlink href="/tujuan">Tujuan</SubNavlink>
+            </li>
+            <li>
+              <SubNavlink href="/about">Sejarah</SubNavlink>
+            </li>
+          </ul>
         </li>
         <li className="nav-item">
           <a className="nav-link">
-            pages <i className="fa fa-angle-down"></i>
+            Menu <i className="fa fa-angle-down"></i>
           </a>
           <ul className="tf__droap_menu">
             {/* <li>
@@ -39,22 +52,22 @@ const NavigationSection = ({ position, btnPosition, navRef }: Props) => {
               <SubNavlink href="/events/science-fair">event details</SubNavlink>
             </li> */}
             <li>
-              <SubNavlink href="/team">team</SubNavlink>
+              <SubNavlink href="/team">Management Al-Fakhir</SubNavlink>
             </li>
             <li>
               <SubNavlink href="/facility">Fasilitas Kami</SubNavlink>
             </li>
             <li>
-              <SubNavlink href="/blog">berita</SubNavlink>
+              <SubNavlink href="/blog">Berita</SubNavlink>
             </li>
             <li>
               <SubNavlink href="/alfakhir-journey">Al-Fakhir Journey 2024</SubNavlink>
             </li>
+            {/* <li>
+              <SubNavlink href="/about#programkami">Program Kami</SubNavlink>
+            </li> */}
             <li>
-              <SubNavlink href="/#program">Program Kami</SubNavlink>
-            </li>
-            <li>
-              {/* <SubNavlink href="/team/john-smith">team details </SubNavlink> */}
+              <SubNavlink href="/gallery">Foto Kegiatan </SubNavlink>
             </li>
             <li>
               <SubNavlink href="/faq">FAQs</SubNavlink>
@@ -84,11 +97,11 @@ const NavigationSection = ({ position, btnPosition, navRef }: Props) => {
               <a 
                 href="https://youtu.be/-92WZjYHiBA" 
                 target="_blank">
-                Video
+                Video Dokumentasi
               </a>
             </li>
             <li>
-              <SubNavlink href="/pengumuman">Observasi Siswa</SubNavlink>
+              <SubNavlink href="/pengumuman">Hasil Observasi</SubNavlink>
             </li>
           </ul>
         </li>
