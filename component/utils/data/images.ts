@@ -1,6 +1,6 @@
 export const images = [
   {
-    src: "/images/gallery/1.JPG",
+    src: "/images/gallery/1.jpg",
     alt: "Gallery Image 1",
     description: "Slide Description One",
   },
@@ -10,7 +10,7 @@ export const images = [
     description: "Slide Description Two",
   },
   {
-    src: "/images/gallery/3.jpg",
+    src: "/images/gallery/3.JPG",
     alt: "Gallery Image 3",
     description: "Slide Description Three",
   },
