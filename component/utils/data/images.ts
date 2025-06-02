@@ -35,11 +35,6 @@ export const images = [
     description: "Slide Description Seven",
   },
   {
-    src: "/images/gallery/8.jpg",
-    alt: "Gallery Image 8",
-    description: "Slide Description Eight",
-  },
-  {
     src: "/images/gallery/9.jpg",
     alt: "Gallery Image 9",
     description: "Slide Description Nine",
@@ -119,4 +114,10 @@ export const images = [
     alt: "Gallery Image 24",
     description: "Slide Description Twenty Four",
   },
+  {
+    src: "/images/gallery/25.jpg",
+    alt: "Gallery Image 25",
+    description: "Slide Description Twenty Five",
+  },
+  
 ];
