@@ -167,7 +167,7 @@ button {
 }
 
 .common_btn_2 {
-  background: var(--colorBlue) !important;
+  background: var(--colorPrimary) !important;
 }
 .main_menu_3 .common_btn {
   background-color: #0d9488 !important;
