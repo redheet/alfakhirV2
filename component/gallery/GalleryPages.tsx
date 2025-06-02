@@ -15,9 +15,9 @@ import { images as allImages } from "../utils/data/images";
 
 export default function GalleryPages() {
   const [index, setIndex] = useState<number>(-1);
-  const [displayedImages, setDisplayedImages] = useState(allImages.slice(0, 8));
+  const [displayedImages, setDisplayedImages] = useState(allImages.slice(0, 12));
   const [page, setPage] = useState(1);
-  const itemsPerPage = 8;
+  const itemsPerPage = 12;
 
   const loadMoreImages = useCallback(() => {
     const nextPage = page + 1;
