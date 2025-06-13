@@ -2966,11 +2966,12 @@ button {
 
 /* activities slider area start */
 .tf__activities_slider_area {
-  background-image: url(../images/activities_bg.jpg);
+  /* background-image: url(../images/activities_bg.jpg); */
+  background-color: var(--colorWhite);
 }
 .tf__activities_slider_area .tf__heading_area h5,
 .tf__activities_slider_area .tf__heading_area h2 {
-  color: var(--colorWhite);
+  color: var(--colorBlack);
 }
 
 .tf__activities_slider_area .tf__heading_area h5::after,

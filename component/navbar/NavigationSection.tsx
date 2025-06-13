@@ -97,11 +97,14 @@ const NavigationSection = ({ position, btnPosition, navRef }: Props) => {
               <a 
                 href="https://youtu.be/-92WZjYHiBA" 
                 target="_blank">
-                Video Dokumentasi
+                Video Dokumentasi 2025
               </a>
             </li>
             <li>
-              <SubNavlink href="/pengumuman">Hasil Observasi</SubNavlink>
+              <SubNavlink href="/pengumuman">Hasil Observasi 1</SubNavlink>
+            </li>
+            <li>
+              <SubNavlink href="/pengumuman">Hasil Observasi 2</SubNavlink>
             </li>
           </ul>
         </li>

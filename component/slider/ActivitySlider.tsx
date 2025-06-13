@@ -1,20 +1,22 @@
-"use client";
+'use client'
 import { ActivityType } from "@/types";
+import Link from "next/link";
 import React from "react";
 import Slider from "react-slick";
+import { fasilitas } from "../utils/data/fasilitas";
 interface Props {
   activityData: ActivityType[];
 }
 const ActivitySlider = ({activityData} : Props) => {
   return (
     <Slider
-      className="row popular_service_slider wow fadeInUp"
-      slidesToShow={4} // Set the number of slides to show
+      className="row blog_slider"
+      slidesToShow={3} // Set the number of slides to show
       infinite={true}
       dots={true}
       arrows={false}
       autoplay={true}
-      slidesToScroll={1} // Set to 1 to scroll one slide at a time
+      slidesToScroll={2}
       responsive={[
         {
           breakpoint: 1400,
@@ -25,7 +27,7 @@ const ActivitySlider = ({activityData} : Props) => {
         {
           breakpoint: 1200,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 2,
           },
         },
         {
@@ -37,7 +39,7 @@ const ActivitySlider = ({activityData} : Props) => {
         {
           breakpoint: 768,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 1,
           },
         },
         {
@@ -48,14 +50,19 @@ const ActivitySlider = ({activityData} : Props) => {
         },
       ]}
     >
-      {activityData.map((item) => (
-        <div className="col-xl-3" key={item._id}>
-          <div className={`tf__activities_item ${item.color}`}>
-            <span>
-              {" "}
-              <i className={item.iClassName}></i>{" "}
-            </span>
-            <h3>{item.title}</h3>
+      {fasilitas.map((item, index) => ( // Hapus slice(0, 99) dan gunakan fasilitas langsung
+        <div className="col-xl-3" key={index}>
+          <div className="tf__single_blog">
+            <div className="tf__single_blog_img">
+              <img
+                src={item.src}
+                alt={item.alt}
+                className="img-fluid w-100 object-cover h-48 rounded-t-lg"
+              />
+            </div>
+            <div className="tf__single_blog_text">
+              <h3 className="title">{item.description}</h3>
+            </div>
           </div>
         </div>
       ))}
