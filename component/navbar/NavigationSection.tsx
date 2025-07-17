@@ -63,9 +63,9 @@ const NavigationSection = ({ position, btnPosition, navRef }: Props) => {
             <li>
               <SubNavlink href="/alfakhir-journey">Al-Fakhir Journey 2024</SubNavlink>
             </li>
-            {/* <li>
-              <SubNavlink href="/about#programkami">Program Kami</SubNavlink>
-            </li> */}
+            <li>
+              <SubNavlink href="/buletin-alfakhir">Buletin Al-Fakhir 2025</SubNavlink>
+            </li>
             <li>
               <SubNavlink href="/gallery">Foto Kegiatan </SubNavlink>
             </li>
