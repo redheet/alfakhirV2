@@ -4,6 +4,7 @@ import Link from "next/link";
 import React from "react";
 import Slider from "react-slick";
 import { fasilitas } from "../utils/data/fasilitas";
+import Image from "next/image";
 interface Props {
   activityData: ActivityType[];
 }
@@ -54,10 +55,14 @@ const ActivitySlider = ({activityData} : Props) => {
         <div className="col-xl-3" key={index}>
           <div className="tf__single_blog">
             <div className="tf__single_blog_img">
-              <img
+              <Image
                 src={item.src}
                 alt={item.alt}
                 className="img-fluid w-100 object-cover h-48 rounded-t-lg"
+                width={1000}
+                height={1000}
+                loading="lazy"
+                priority={false}
               />
             </div>
             <div className="tf__single_blog_text">
