@@ -1,6 +1,11 @@
 # 🚀 Alfakhir V2
 
 > 🏫 Visit the live site: [smpialfakhir.sch.id](https://smpialfakhir.sch.id)
+=======
+#AL FAKHIR V2
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Getting Start
 
 [![Next.js](https://img.shields.io/badge/Next.js-13-blue?logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-4.x-blue?logo=typescript)](https://www.typescriptlang.org/)
@@ -105,3 +110,5 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 Made with ❤️ by [@redheet](https://github.com/redheet)
 
 ---
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
