@@ -2,10 +2,15 @@
 
 > 🏫 Visit the live site: [smpialfakhir.sch.id](https://smpialfakhir.sch.id)
 
-[![Next.js](https://img.shields.io/badge/Next.js-13-blue?logo=next.js)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-4.x-blue?logo=typescript)](https://www.typescriptlang.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-14-blue?logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue?logo=typescript)](https://www.typescriptlang.org/)
 [![Sanity](https://img.shields.io/badge/Sanity-CMS-red?logo=sanity)](https://www.sanity.io/)
+[![Markdown](https://img.shields.io/badge/Markdown-Docs-blue?logo=markdown)](https://www.markdownguide.org/)
+[![Styled Components](https://img.shields.io/badge/Styled--Components-CSS--in--JS-pink?logo=styled-components)](https://styled-components.com/)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-Framework-purple?logo=bootstrap)](https://getbootstrap.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer--Motion-Animation-black?logo=framer)](https://www.framer.com/motion/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](#license)
+
 
 > ⚡ A sleek, modern web app built with Next.js, TypeScript, Redux, and Sanity CMS. Designed for performance, scalability, and developer happiness.
 
