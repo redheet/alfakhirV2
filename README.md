@@ -1,38 +1,114 @@
+# 🚀 Alfakhir V2
+
+> 🏫 Visit the live site: [smpialfakhir.sch.id](https://smpialfakhir.sch.id)
+=======
 #AL FAKHIR V2
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Start
 
-First, run the development server:
+[![Next.js](https://img.shields.io/badge/Next.js-13-blue?logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-4.x-blue?logo=typescript)](https://www.typescriptlang.org/)
+[![Sanity](https://img.shields.io/badge/Sanity-CMS-red?logo=sanity)](https://www.sanity.io/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](#license)
+
+> ⚡ A sleek, modern web app built with Next.js, TypeScript, Redux, and Sanity CMS. Designed for performance, scalability, and developer happiness.
+
+---
+
+## ✨ Features
+
+- 🚀 **Next.js 13** with App Router
+- 🧠 **Redux Toolkit** for state management
+- 🎨 **Google Fonts** integration via `next/font`
+- 📦 **Sanity CMS** for structured content
+- 🧱 Modular architecture with reusable components
+- 🌐 SEO-friendly and optimized for performance
+
+---
+
+## 🧰 Tech Stack
+
+| Tech        | Description                  |
+|-------------|------------------------------|
+| **Next.js** | React framework for SSR & SSG |
+| **TypeScript** | Type-safe development       |
+| **Redux Toolkit** | Scalable state management |
+| **Sanity CMS** | Headless content platform   |
+| **CSS**     | Custom styling                |
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/redheet/alfakhirV2.git
+cd alfakhirV2
+npm install
+```
+
+---
+
+## 🧪 Development
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000) to view the app.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🗂️ Project Structure
 
-## Learn More
+```
+alfakhirV2/
+├── app/              # Main app pages
+├── component/        # Reusable UI components
+├── public/           # Static assets
+├── redux/            # Redux setup
+├── sanity/           # Sanity CMS config
+├── schemas/          # Sanity schemas
+├── types/            # TypeScript types
+```
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌍 Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Deploy seamlessly with [Vercel](https://vercel.com), the creators of Next.js.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🤝 Contributing
 
+Contributions are welcome! Feel free to fork the repo, submit issues, or open pull requests.
+
+```bash
+# Create a new branch
+git checkout -b feature/your-feature-name
+
+# Commit your changes
+git commit -m "Add your message"
+
+# Push to GitHub
+git push origin feature/your-feature-name
+```
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+---
+
+## 📬 Contact
+
+Made with ❤️ by [@redheet](https://github.com/redheet)
+
+---
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
