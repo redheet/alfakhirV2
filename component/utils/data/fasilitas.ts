@@ -1,28 +1,38 @@
 export const fasilitas = [
     {
-      src: "/images/fasilitas/aula.jpg",
+      src: "/images/fasilitas/webp/lapangan-utama.webp",
       alt: "Fasilitas",
-      description: "Aula",
+      description: "Lapangan Utama",
+    },
+    {
+      src: "/images/fasilitas/webp/bagian-bawah-sekolah.webp",
+      alt: "Fasilitas",
+      description: "Lapangan Secondary",
+    },
+    {
+      src: "/images/fasilitas/webp/kolam-ok.webp",
+      alt: "Gallery Image 4",
+      description: "Kolam Renang",
+    },
+    {
+      src: "/images/fasilitas/webp/saung.webp",
+      alt: "Gallery Image 4",
+      description: "Saung",
+    },
+    {
+      src: "/images/fasilitas/lobby-1.jpeg",
+      alt: "Gallery Image 9",
+      description: "Lobby",
+    },
+    {
+      src: "/images/fasilitas/lobby-2.jpg",
+      alt: "Gallery Image 10",
+      description: "Lobby",
     },
     {
       src: "/images/fasilitas/pintu-masuk.jpeg",
       alt: "Fasilitas",
-      description: "Pintu Masuk",
-    },
-    {
-      src: "/images/fasilitas/kelas-1.jpg",
-      alt: "Gallery Image 2",
-      description: "Kelas VII-1",
-    },
-    {
-      src: "/images/fasilitas/kelas-2.jpg",
-      alt: "Gallery Image 3",
-      description: "Kelas VII-2",
-    },
-    {
-      src: "/images/fasilitas/kolam.jpeg",
-      alt: "Gallery Image 4",
-      description: "Kolam Renang",
+      description: "Pintu Masuk Utama",
     },
     {
       src: "/images/fasilitas/kantin-2.jpg",
@@ -30,49 +40,39 @@ export const fasilitas = [
       description: "Kantin",
     },
     {
-      src: "/images/fasilitas/lapangan.jpg",
-      alt: "Gallery Image 6",
-      description: "Lapangan",
-    },
-    {
-      src: "/images/fasilitas/lapangan-2.jpg",
-      alt: "Gallery Image 8",
-      description: "Lapangan",
-    },
-    {
       src: "/images/fasilitas/free-spot.jpg",
       alt: "Gallery Image 7",
       description: "Free Spot",
     },
     {
-      src: "/images/fasilitas/lobby-1.jpeg",
-      alt: "Gallery Image 9",
-      description: "Lobby 1",
+      src: "/images/fasilitas/webp/kelas.webp",
+      alt: "Gallery Image 2",
+      description: "Kelas",
     },
     {
-      src: "/images/fasilitas/lobby-2.jpg",
-      alt: "Gallery Image 10",
-      description: "Lobby 2",
+      src: "/images/fasilitas/webp/kelas-ok.webp",
+      alt: "Gallery Image 2",
+      description: "Kelas",
     },
     {
-      src: "/images/fasilitas/lorong-1.jpg",
-      alt: "Gallery Image 11",
-      description: "Lorong",
-    },
-    {
-      src: "/images/fasilitas/lorong-2.jpg",
-      alt: "Gallery Image 12",
-      description: "Lorong",
-    },
-    {
-      src: "/images/fasilitas/mushola.jpg",
+      src: "/images/fasilitas/webp/mushola.webp",
       alt: "Gallery Image 13",
       description: "Mushola",
     },
     {
-      src: "/images/fasilitas/saung.jpg",
+      src: "/images/fasilitas/webp/labcom.webp",
       alt: "Gallery Image 14",
-      description: "Saung",
+      description: "Lab Komputer",
+    },
+    {
+      src: "/images/fasilitas/webp/labipa.webp",
+      alt: "Gallery Image 14",
+      description: "Lab IPA",
+    },
+    {
+      src: "/images/fasilitas/webp/perpus-ok.webp",
+      alt: "Gallery Image 14",
+      description: "Perpustakaan",
     },
     {
       src: "/images/fasilitas/toilet-in3.jpg",

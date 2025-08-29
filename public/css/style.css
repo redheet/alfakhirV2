@@ -1092,10 +1092,16 @@ button {
 }
 
 .tf__about_img {
-  height: 670px;
+  height: 370px;
+  width: 700px;
   position: relative;
   z-index: 1;
 }
+
+/* .img_custom {
+  height: 370px;
+  width: 600px;
+} */
 
 .tf__about_img::after,
 .tf__about_img::before {
