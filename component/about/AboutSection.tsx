@@ -100,7 +100,7 @@ const AboutSection = () => {
           <div className="col-xl-6 col-sm-9 col-md-8 col-lg-6 wow fadeInRight">
             <div className="tf__about_img">
               <img
-                src="/images/fasilitas/webp/nobg.png"
+                src="/images/fasilitas/webp/nobg.webp"
                 alt="about"
                 className="img-fluid w-100"
               />
