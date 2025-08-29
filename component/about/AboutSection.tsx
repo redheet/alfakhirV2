@@ -41,7 +41,7 @@ const AboutSection = () => {
             <div className="col-xl-5 col-lg-5">
               <div className="tf__about_top_img">
                 <img
-                  src="/images/building/b-1.png"
+                  src="/images/fasilitas/webp/bagian-depan-sekolah.webp"
                   alt="about"
                   className="img-fluid w-100"
                 />
@@ -100,11 +100,11 @@ const AboutSection = () => {
           <div className="col-xl-6 col-sm-9 col-md-8 col-lg-6 wow fadeInRight">
             <div className="tf__about_img">
               <img
-                src="/images/about/all-no-bg.png"
+                src="/images/fasilitas/webp/nobg.png"
                 alt="about"
                 className="img-fluid w-100"
               />
-              <div className="text counter-box">
+              {/* <div className="text counter-box">
                 <i className="far fa-check-circle"></i>
                 <h3>
                   {isVisible && (
@@ -117,7 +117,7 @@ const AboutSection = () => {
                   )}
                 </h3>
                 <p>Complete Projects</p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
