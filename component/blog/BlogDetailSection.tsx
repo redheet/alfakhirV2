@@ -35,7 +35,7 @@ const BlogDetailSection = ({ blogDesc,blogDataArray } : Props) => {
                 
               </div>
               
-              <div className="tf__comment_reply mt_65 wow fadeInUp">
+              {/* <div className="tf__comment_reply mt_65 wow fadeInUp">
                 <h3>leave a Comment</h3>
                 <form>
                   <div className="row">
@@ -51,7 +51,7 @@ const BlogDetailSection = ({ blogDesc,blogDataArray } : Props) => {
                     </div>
                   </div>
                 </form>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-xl-4 col-lg-4">
@@ -67,7 +67,7 @@ const BlogDetailSection = ({ blogDesc,blogDataArray } : Props) => {
               <div className="tf__sidebar_blog sidebar_item">
                 <h3>Recent Post</h3>
                 <ul>
-                  {blogDataArray.slice(0, 3).map((item) => (
+                  {blogDataArray.slice(0, 6).map((item) => (
                     <li key={item._id}>
                       <div className="img">
                         <img
